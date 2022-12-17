@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%
+}
+   
+
+body main .container_principal
+{
+    height: 350px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border: 5px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    
+}
+
+.main_banner{
+    width: 100%;
+    height: 45%;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    background-image: url('../img/banner\ linkenid.png') ;
+    background-size: cover;
+    border-bottom: 3px solid white;
+}
+
+.container_picture{
+    margin: 0 auto;
+    margin-top: -40px;
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-image: url('../img/foto\ de\ perfil\ 70\ k.png');
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    color: #1d2a5f;
+}
+
+h2{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #1d2a5f
+}
+
+.container_ul {
+
+    width: 100%;
+    height: 80px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*border: 1px solid purple;*/
+    background: rgb(27,40,93);
+    background: linear-gradient(139deg, rgba(27,40,93,1) 0%, rgba(72,65,106,1) 57%, rgba(223,144,149,1) 100%);
+    border-top: 3px solid white;
+    
+}
+
+
+.container_ul_right{
+    
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.container_ul_left{
+    
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.container_ul img{
+    width: 15px;
+    height: 15px;
+}
+
+
+ .ul_left li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    list-style: none;
+    margin-top: 2px;
+    color: #feedcf
+ }
+
+ .ul_right li{
+    
+   
+ 
+    list-style: none;
+
+  
+ }
+
+
